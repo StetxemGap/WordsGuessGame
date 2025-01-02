@@ -17,4 +17,9 @@
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
   </ItemGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\Fonts\SourGummy-VariableFont_wdth,wght.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\Montserrat-VariableFont_wght.ttf" />
+    <AvaloniaResource Include="Assets\Fonts\MontserratAlternates-Regular.ttf" />
+  </ItemGroup>
 </Project>

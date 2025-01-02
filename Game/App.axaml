@@ -2,8 +2,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="Game.App"
              RequestedThemeVariant="Light">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 	<Application.Styles>
 		<FluentTheme />
 	</Application.Styles>
+	<Application.Resources>
+		<FontFamily x:Key="Montserrat">Assets/Fonts#Montserrat</FontFamily>
+		<FontFamily x:Key="SourGummy">Assets/Fonts#Sour Gummy</FontFamily>
+	</Application.Resources>
 </Application>
